@@ -267,3 +267,113 @@
 // console.log(arr.length);
 
 
+
+// 14) Date Comparison
+// • Question: Write a function that takes two dates as arguments and returns true if the first
+// date is earlier than the second date.
+
+// let checkDate = (date1,date2)=>{
+//     let d1 =  new Date(date1);
+//     let d2 = new Date(date2);
+
+//     return d1 < d2;
+
+// }
+// let date1 = new Date('2023-09-01');
+// let date2 = new Date('2024-01-01');
+// let res2 = checkDate(date1, date2);
+// console.log(res2); // Output: true
+
+
+
+
+
+
+
+// 15) Switch Statement
+// • Question: Write a switch statement that takes a day of the week (1 for Monday, 2 for
+// Tuesday, etc.) and returns the name of the day.
+
+// Basic Syntax
+// switch (expression) {
+//   case value1:
+//     // Code to execute if expression === value1
+//     break;
+//   case value2:
+//     // Code to execute if expression === value2
+//     break;
+//   // More cases...
+//   default:
+//     // Code to execute if expression doesn't match any cases
+// }
+
+
+// // Define the variable
+// let day = 5; // This can be changed to test different values
+// // Use the switch statement
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   case 7:
+//     console.log("Sunday");
+//     break;
+//   default:
+//     console.log("Invalid day");
+// }
+
+
+// Using function
+// function getDayName(day) {
+//   switch (day) {
+//     case 1:
+//       return "Monday";
+//     case 2:
+//       return "Tuesday";
+//     case 3:
+//       return "Wednesday";
+//     case 4:
+//       return "Thursday";
+//     case 5:
+//       return "Friday";
+//     case 6:
+//       return "Saturday";
+//     case 7:
+//       return "Sunday";
+//     default:
+//       return "Invalid day";
+//   }
+// }
+
+// const dayName = getDayName(3); // "Wednesday"
+// console.log(dayName);
+
+
+// 16). For Loop with Break
+// • Question: Write a for loop that iterates through an array of numbers and breaks the loop
+// when it encounters the number 5.
+
+
+// let arr = [1,2,3,4,5,6,7,8];
+// for(let val of arr ){
+//     console.log(val);
+//     if(val === 5){
+//     break;
+//     }
+// }
+
